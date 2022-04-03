@@ -1,0 +1,628 @@
+@font-face{
+    
+    src:url("fonts/OpenSans-SemiBold.ttf");
+    font-family:rasel;
+    
+}
+@font-face{
+    
+    src:url("fonts/OpenSans-Light.ttf");
+    font-family:khan;
+}
+
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+ol,ul{
+    list-style:none;
+}
+
+
+a{
+    text-decoration:none;
+}
+ 
+
+
+/*start header menu*/
+
+.header_main{
+    background-color:red;
+    height:800px;
+    width:100%;
+    background-image:url(image/header_ba.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+     
+    
+
+}
+.header_mid{
+/*    background-color:beige;*/
+    height:100%;
+   width:80%;
+    margin:auto;
+       overflow:hidden;
+}
+
+
+.bluer{
+    width:100%;
+    height:100%;
+    background:rgb(35,36,48,0.9);
+}
+.header_menu{
+    text-align:center;
+
+/*    height:86px;*/
+
+    color:white;
+    margin-top:10px;
+}
+
+.header_menu_left{
+    float:left;
+    width:33.3%;
+    margin-top:20px;
+   
+}
+
+.header_menu_left ul li{
+    display:inline-block;
+    padding:10px 10px;
+  /*  background-color: gray;*/
+}
+.header_menu_left ul li a{
+  text-transform:uppercase;  
+    color:white;
+}
+
+.header_menu_middle{
+    float:left;
+    width:33.3%;
+   
+}
+.header_menu_right{
+ float:left;  
+    width:33.3%;
+    display:inline-block;
+      margin-top:20px;
+}
+
+.header_menu_right ul li{
+    display:inline-block;
+        padding:10px 10px;
+/*    background-color: gray;*/
+    
+}
+.header_menu_right ul li a{
+ text-transform:uppercase;
+    color:white;
+}
+
+
+
+/*end of header menu*/
+
+.header_body{
+ 
+    width:100%;
+    margin-top:140px;
+    
+}
+.header_body_left{
+    float:left;
+    width:50%;
+
+     text-align:center;
+}
+.header_body_left img{
+    width:100%;
+    height:100%;
+}
+
+
+
+.header_body_right{
+    float:left;
+    width:50%;
+
+    text-align:left;
+
+}
+.header_body_right h1{
+    font-size:65px;
+    font-weight:bold;
+    font-family:rasel;
+    margin-left:10px;
+    color:#FE8F00;
+}
+.header_body_right p{
+    font-size:25px;
+     font-family:khan;
+    font-weight:bold;
+      margin-left:10px;
+    color:white;
+    margin:15px 14px;
+}
+.header_body_right button{
+    text-transform:capitalize;
+    padding:8px 19px 8px 19px;
+    outline:none;
+    border:none;
+    font-size:30px;
+     margin-left:10px;
+    background-color:#FE8F00;
+    color:black;
+    font-weight:bold;
+    border-radius:5px;
+    
+}
+
+/*all end of header section*/
+
+
+
+/*about us section*/
+
+.about_us_main{
+ 
+    height:350px;
+    background-color:#17181D;
+}
+.about_us_mid{
+    height:100%;
+    width:80%;
+  /*  background-color:aqua;*/
+    margin:auto;
+    color:white;
+    text-align:left;
+}
+.about_us_mid_left{
+   /* background-color: firebrick;*/
+    height:100%;
+    width:50%;
+    float:left;
+}
+.about_us_mid_left img{
+    
+    width:100%;
+    height:100%;
+}
+
+
+.about_us_mid_right{
+ /*     background-color:dimgrey;*/
+    height:100%;
+    width:50%;
+    float:left;
+}
+.about_us_mid_right h1{
+    font-size:40px;
+    text-transform:capitalize;
+      padding:0px 66px;
+    margin-top:60px;
+    
+    
+}
+.about_us_mid_right p{
+    font-size:20px;
+    padding:0px 66px;
+    margin:10px 0px;
+    
+}
+
+
+
+/*end of about us section*/
+
+
+
+
+
+/*start of food quality*/
+
+.food_quality_main{
+    background-color:#17171F;
+    height:1600px;
+    width:100%;
+}
+.food_quality_mid{
+  /*  background-color:antiquewhite;*/
+    height:100%;
+    width:90%;
+    margin:auto;
+    background-image:url(image/food_quality_bg.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    position:relative;
+}
+
+.food_quality_mid_one{
+    position:absolute;
+    top:90px;
+    right:0px;
+height: 535px;
+    width: 360px;
+   /* background-color:blue;*/
+}
+.food_quality_mid_one img{
+    width:100%;
+    height:100%;
+}
+
+
+
+.food_quality_mid_two{
+   /* background-color:blue;*/
+    height:300px;
+    width:350px;
+    position:absolute;
+    top:400px;
+    left:90px;
+    color:white;
+    text-align:left;
+    
+    
+}
+.food_quality_mid_two h1{
+    text-transform:capitalize;
+    font-family:rasel;
+}
+.food_quality_mid_two p{
+    font-size:17px;
+    margin:15px auto;
+    line-height:25px;
+    font-weight:bold;
+    
+}
+
+
+
+
+
+.food_quality_mid_three{
+    position:absolute;
+    right:0px;
+    bottom:120px;
+   margin:auto;
+   /* background-color:dimgray;*/
+    height:750px;
+    width:750px; 
+    
+}
+.food_quality_mid_three img{
+    width:100%;
+    height:100%;
+}
+
+
+
+.food_quality_mid_four{
+    position:absolute;
+    left:0px;
+    bottom:230px;
+       height:420px;
+    width:420px;
+/*    background-color:yellowgreen;*/
+    
+}
+.food_quality_mid_four img{
+    width:100%;
+    height:100%;
+}
+
+
+/*end of food quality*/
+
+
+
+
+
+/*start our food gallery*/
+.gallery_main{
+    background-color:#17171F;
+    height:650px;
+    width:100%;
+    overflow:hidden;
+}
+.gallery_main h1{
+    text-transform:capitalize;
+    padding:0px;
+    margin:0px;
+    text-align:center;
+    color:white;
+    font-family:rasel;
+        
+}
+
+.gallery_mid{
+   background-color:#17171F;
+    width:80%;
+    height:550px;
+    margin:auto;
+    margin-top:30px;
+    text-align:center;
+}
+.gallery_mid_one{
+    background-color:darkslategrey;
+    height:240px;
+    width:30%;
+    display:inline-block;
+   margin-right:20px;
+    margin-bottom:10px;
+}
+.gallery_mid_one img{
+    width:100%;
+    height:100%;
+}
+
+
+/*<!--   end  our food gallery-->*/
+
+
+/*start   enjoy our food*/
+.enjoy_food_main{
+    
+    background-color:gray;
+    height:450px;
+    width:100%;
+    background-image:url(image/enjoy_food_bg.png);
+    background-position:center;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    overflow: hidden;
+}
+.enjoy_food_mid{
+    background-color:#1A1B20;
+    height:360px;
+    width:40%;
+    margin:auto;
+    margin-top:40px;
+    border:4px solid red;
+    text-align:center;
+    color:white;
+}
+.enjoy_food_mid h1{
+    margin-top:30px;
+    text-transform:capitalize;
+    font-weight:bold;
+    font-weight:bold;
+    font-family:rasel;
+    font-weight:bold;
+}
+.enjoy_food_mid p{
+    font-size:20px;
+    padding:12px 90px;
+    text-align:center;
+    font-weight:bold;
+    font-family:rasel;
+}
+
+
+
+/*end   enjoy our food*/
+
+
+/*start our menu*/
+.our_menu_main{
+    background-color:#17171F;
+    height:600px;
+    width:100%;
+    overflow:hidden;
+}
+.our_menu_main h1{
+    text-transform: capitalize;
+    text-align:center;
+    font-family:rasel;
+    margin-top:20px;
+    color:white;
+}
+
+.our_menu_mid{
+ /*   background-color: azure;*/
+  /*  height:400px;*/
+    width:80%;
+    margin:auto;
+    margin-top:65px;
+    text-align:center;
+}
+.our_menu_mid_one{
+    height:400px;
+    display:inline-block;
+   /* background-color:dodgerblue;*/
+    width:29%;
+    text-align:left;
+    margin-right:30px;
+    
+}
+.our_menu_mid_one_img{
+   /* background-color:green;*/
+    height:230px;
+    width:100%;
+}
+.our_menu_mid_one_img img{
+    width:100%;
+    height:100%;
+    
+}
+
+
+.our_menu_mid_one_text{
+    height:170px;
+    width:100%;
+   /* background-color:yellowgreen;*/
+}
+.our_menu_mid_one_text h2{
+    
+    text-transform:uppercase;
+    font-size:22px;
+    font-family:monospace;
+    font-weight:bolder;
+    color:#D87C03;
+}
+.our_menu_mid_one_text p{
+    font-weight:bold;
+    padding:10px 0px;
+    font-size:16px;
+    line-height:15px;
+    color:white;
+    
+}
+.our_menu_mid_one_text h4{
+    font-weight:bold;
+    text-transform:capitalize;
+    color:#D87C03;
+    
+}
+
+/*end our menu*/
+
+
+
+
+/*start enjoy best meal*/
+.best_meal_main{
+    
+    background-color:#17171F;
+    height:400px;
+    width:100%;
+    overflow:hidden;
+     position:relative;
+}
+
+
+
+.best_meal_mid{
+    height:300px;
+    width:80%;
+    background-image:url(image/best_meal_bg.png);
+
+    margin:auto;
+        margin-top:50px;
+   
+}
+.best_meal_mid_img{
+height: 350px;
+    width: 30%;
+   
+    position:absolute;
+    top:30px;
+    left:137px;
+    /*background-color:darkslateblue;*/
+     float:left;
+    
+}
+.best_meal_mid_img img{
+    width:100%;
+    height:100%;
+   
+}
+
+
+
+.best_meal_mid_text{
+      height:300px;
+    width:60%;
+    background-color:transparent;
+    float:right;
+    text-align:left;
+}
+.best_meal_mid_text h1{
+       padding:15px 150px;
+    margin-top:20px;
+    text-transform: capitalize;
+    font-weight:bold;
+    color:white;
+}
+.best_meal_mid_text p{
+    padding:10px 150px;
+    font-size:20px;
+    font-family:rasel;
+    color:white;
+}
+
+
+/*end enjoy best meal*/
+
+/*start footer section*/
+
+.footer_main{
+    background-color:#17171F;
+    height:180px;
+}
+.footer_main_img{
+
+    height:50px;
+    text-align:center;
+    
+}
+.footer_main_img img{
+    height:100%;
+}
+
+
+.footer_main_menu{
+   
+      margin-top:20px;
+
+}
+.footer_main_menu ul{
+    text-align:center;
+}
+
+.footer_main_menu li{
+    display:inline-block;
+    text-transform:uppercase;
+    font-family:rasel;
+    padding:0px 35px;
+    font-size:20px;
+    color:white;
+}
+.footer_main_icon{
+ 
+ 
+    text-align:center;
+    margin-top:20px;
+}
+.footer_main_icon .r{
+    font-size:30px;
+    padding:10px 10px;
+    background-color:white;
+  
+    border-radius:50%;
+    margin:0px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+/*end footer section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
